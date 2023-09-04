@@ -1,0 +1,80 @@
+* {
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently
+                                  supported by Chrome and Opera*/
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    --themeColor: #3cbbe5;
+    --infoColor: #ff942f;
+    --testGreen: green;
+    --testRed: rgb(238, 29, 29);
+                                 
+}
+body{
+    background-color: var(--themeColor);
+    color: #FFF;
+    width: 100vw;
+    height: 20vh;
+    font-family: 'Lato', sans-serif; 
+    font-size: 1vw;
+}
+.header{
+    text-align: center;
+    font-size: 6em;
+    padding: .5em;
+    width: 100vw;
+}
+#main-page-container{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mode-buttons{
+    margin: 1vw 0;
+    width: 25vw;
+    height: 5vw;
+    font-size: 2em;
+    border: .25em white solid ;
+    padding: 0.4em;
+    text-align: center;
+    border-radius: 2.5vw;
+    cursor: pointer;
+}
+#test-board-container{
+    background-color: var(--infoColor) ;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    cursor: pointer;
+}
+.test-board-tile{
+    
+    width: 25vw;
+    height: 25vh;
+
+}
+.distractor-tile{
+    
+}
+#test-info-container{
+    background-color: var(--infoColor);
+    width: 100vw;
+    height: 100vh;
+    padding: 2em;
+    font-size: 5em;
+    text-align: center;
+    cursor: pointer;
+}
