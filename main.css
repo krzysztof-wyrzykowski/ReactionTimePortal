@@ -60,11 +60,15 @@ body{
     flex-direction: row;
     cursor: pointer;
 }
+.test-board-side{
+    width: 50vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
 .test-board-tile{
-    
     width: 25vw;
     height: 25vh;
-
 }
 .distractor-tile{
     
@@ -73,7 +77,7 @@ body{
     background-color: var(--infoColor);
     width: 100vw;
     height: 100vh;
-    padding: 2em;
+    padding: 1em;
     font-size: 5em;
     text-align: center;
     cursor: pointer;
